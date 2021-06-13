@@ -24,5 +24,7 @@ RUN npm install
 
 COPY . .
 
+RUN mkdir uploads
+
 EXPOSE 3000
 CMD ["npm", "start" ]
